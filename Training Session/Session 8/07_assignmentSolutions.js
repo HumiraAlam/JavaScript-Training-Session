@@ -24,11 +24,11 @@ evenOdd(22);
 // show designation'
 
 function mydesignation(x) {
-  if ((x >= 18) & (x <= 20)) {
+  if ((x >= 18) && (x <= 20)) {
     console.log("Junior Developer");
-  } else if ((x >= 21) & (x <= 24)) {
+  } else if ((x >= 21) && (x <= 24)) {
     console.log("Senior Developer");
-  } else if ((x >= 25) & (x <= 30)) {
+  } else if ((x >= 25) && (x <= 30)) {
     console.log("Ast Manager");
   } else if (x >= 31) {
     console.log("Manager");
