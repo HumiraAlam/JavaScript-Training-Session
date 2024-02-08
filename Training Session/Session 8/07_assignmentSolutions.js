@@ -60,8 +60,3 @@ function calculator(x, y, action) {
   }
 }
 calculator(2, 3, "*");
-
-switch(n){
-    case "x"
-
-}
