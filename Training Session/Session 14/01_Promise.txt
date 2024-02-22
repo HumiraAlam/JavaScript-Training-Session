@@ -1,0 +1,66 @@
+Promise
+-------
+what is promise?
+    -promise is a special object 
+    -represent the eventual completion or failure of an asynchronous operation.
+    -It allows to handle asynchronous operations more easily 
+
+How it is created?
+    it is created using promise() constructor
+
+What is construcor?
+    a spectial function in JS tha create a special Object
+
+Purpose of promise?
+    to store Success Data or Failure Data/Error Data
+
+    promise object---promise()constructor
+
+    <<var mypromise= new promise()>>
+
+
+
+What is resolve & reject?
+    -both are pre-defined functions
+    -used to store data in promise object
+
+    --if data is stored in promise object useing resolve(), that is <<success data>>
+    ---if data is stored in promise object useing reject(), that is <<Failure/error data>>
+
+
+   Promise>> usinig new Promise() >>Promise states
+   -------------------------------------------
+ A promise can be in one of three states:
+
+1. Pending: 
+        Initial state, neither fulfilled nor rejected...empty promise object
+2. Resolved / Fulfilled: 
+        The operation completed successfully. 
+        if data is stored using resolve()
+3. Rejected: 
+        The operation failed.
+        if data is stored using reject()
+
+
+        Accessing data from promise object
+        -----------------------------------
+Promises have two primary methods for interacting with them:
+
+1. then(): 
+    This method is used to handle the result of a promise when it is fulfilled.
+2. catch(): 
+    This method is used to handle any errors that may occur during the execution of the promise.
+
+
+    Handling Promise object
+    ------------------------
+99% you will have to handle promise object and 1% is to create
+
+        promiseObj.then(function(res){
+            ----
+            -----
+        }).catch(function(error){
+
+        })
+
+        **Async and await>> used to handle promise object
